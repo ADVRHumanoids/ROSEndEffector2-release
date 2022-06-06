@@ -1,0 +1,15 @@
+ros-foxy-end-effector (0.0.3-1focal) focal; urgency=high
+
+  * c++17 to remove boost dep && some solved warnings
+  * Contributors: Davide Torielli
+
+ -- Luca Muratore <luca.muratore@iit.it>  Sun, 05 Jun 2022 22:00:00 -0000
+
+ros-foxy-end-effector (0.0.2-1focal) focal; urgency=high
+
+  * Porting from ROS1 to ROS2
+  * Contributors: Davide Torielli, torydebra
+
+ -- Luca Muratore <luca.muratore@iit.it>  Sun, 05 Jun 2022 22:00:00 -0000
+
+

@@ -1,0 +1,12 @@
+Source: ros-foxy-end-effector
+Section: misc
+Priority: optional
+Maintainer: Luca Muratore <luca.muratore@iit.it>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev <!nocheck>, libmuparser-dev, libyaml-cpp-dev, ros-foxy-ament-cmake, ros-foxy-kdl-parser, ros-foxy-moveit-ros-planning-interface, ros-foxy-pluginlib, ros-foxy-rclcpp, ros-foxy-rclcpp-action, ros-foxy-rclpy, ros-foxy-rosee-msg, ros-foxy-srdfdom, ros-foxy-ros-workspace
+Homepage: https://advrhumanoids.github.io/ROSEndEffectorDocs/
+Standards-Version: 3.9.2
+
+Package: ros-foxy-end-effector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmuparser-dev, libyaml-cpp-dev, ros-foxy-joint-state-publisher, ros-foxy-joint-state-publisher-gui, ros-foxy-kdl-parser, ros-foxy-moveit-ros-planning-interface, ros-foxy-pluginlib, ros-foxy-rclcpp, ros-foxy-rclcpp-action, ros-foxy-rclpy, ros-foxy-rosee-msg, ros-foxy-srdfdom, ros-foxy-ros-workspace
+Description: End-Effector2 package: provides a ROS2-based set of standard interfaces to command robotics end-effectors in an agnostic fashion
